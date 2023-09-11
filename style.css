@@ -40,6 +40,10 @@ body{
     transition: transform 0.5s linear; 
 }
 
+.container.show-nav .circle{
+    transform: rotate(-70deg); 
+}
+
 .circle button{
 
     position: absolute; 
@@ -90,7 +94,7 @@ nav ul{
 
 }
 
-nav ul li{
+nav ul li a{
     text-transform: uppercase;
     color: #fff;
     margin: 40px 0; 
